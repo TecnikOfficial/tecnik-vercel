@@ -35,7 +35,7 @@ export default function NotificationBell() {
     <>
       <div className="notification-bell" onClick={togglePanel} ref={bellRef}>
         <Image
-          src="/assets/media/noti.webp"
+          src="/images/noti.webp"
           className="notification-bell"
           alt="Notification Bell"
           width={60}

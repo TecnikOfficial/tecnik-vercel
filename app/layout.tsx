@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     url: "https://tecnik.pages.dev",
     images: [
       {
-        url: "/assets/media/metaimg.webp",
+        url: "/images/metaimg.webp",
         width: 1200,
         height: 628,
       },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "TecNik - Official Site",
     description:
       "@TecNikOfficial & @SyncKingMusic : Where tech meets music! Explore safe Windows / gaming tips alongside Songs that blend human creativity + Ai❤️",
-    images: ["/assets/media/metaimg.webp"],
+    images: ["/images/metaimg.webp"],
   },
   verification: {
     google: "ebIZ0CJJW0rZZjBOIn0btfrn2vYjA9IDo3GLpBlNYQQ",
@@ -63,7 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inconsolata.variable} ${inter.variable}`}>
       <head>
-        <link rel="icon" href="/assets/media/favicon.webp" type="image/webp" />
+        <link rel="icon" href="/images/favicon.webp" type="image/webp" />
         <link rel="dns-prefetch" href="//app.hearthis.at" />
         <link rel="preconnect" href="//app.hearthis.at" crossOrigin="" />
       </head>

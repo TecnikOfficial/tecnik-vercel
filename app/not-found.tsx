@@ -54,6 +54,7 @@ export default function NotFound() {
               alt="Paradox"
               title="404"
               style={{ bottom: "74px" }}
+              unoptimized
             />
           </Link>
         </h1>

@@ -113,8 +113,8 @@ export default function Home() {
 
       <div className="video-background">
         <video autoPlay muted loop playsInline>
-          <source src="/assets/media/video.webm" type="video/webm" />
-          <source src="/assets/media/video.mp4" type="video/mp4" />
+          <source src="/videos/video.webm" type="video/webm" />
+          <source src="/videos/video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -136,7 +136,7 @@ export default function Home() {
         <div className="widget-container">
           <Image
             ref={donateButtonRef}
-            src="/assets/media/donate.webp"
+            src="/images/donate.webp"
             className="widget-image"
             title="TYSM❤️"
             alt="Donate"

@@ -8,7 +8,7 @@ export default function Footer() {
       Made with{" "}
       <Link href="https://youtu.be/71qssscQqH8?feature=shared" target="_blank">
         <Image
-          src="/assets/media/heart.gif"
+          src="/images/heart.gif"
           alt="Heart"
           title="Listen💓"
           width={20}

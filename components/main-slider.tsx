@@ -63,7 +63,7 @@ export default function MainSlider({ onContactClick, onServicesClick, onProjects
   return (
     <div className="slider">
       <Image
-        src="/assets/media/tecnikofficial.webp"
+        src="/images/tecnikofficial.webp"
         onClick={copyDiscord}
         className="hover-image"
         alt="Main Image"
